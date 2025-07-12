@@ -91,21 +91,40 @@ Classify grayscale hand gesture images into one of 10 categories using a custom 
 
 ## ✅ Results
 
+<div align="center">
+
+<table>
+<tr>
+<td>
+
 📋 **Classification Report:**
 
-| Metric        | palm | L   | fist | ok  | ... | avg  |
-|---------------|------|-----|------|-----|-----|------|
-| Precision     | 0.98 | 0.97| 0.96 | 0.99| ... | 0.98 |
-| Recall        | 0.97 | 0.98| 0.95 | 0.99| ... | 0.98 |
-| F1-Score      | 0.97 | 0.97| 0.95 | 0.99| ... | 0.98 |
-| Support       | 200  | 200 | 200  | 200 | ... | —    |
+| Metric    | palm | L   | fist | ok  | ... | avg  |
+|-----------|------|-----|------|-----|-----|------|
+| Precision | 0.98 | 0.97| 0.96 | 0.99| ... | 0.98 |
+| Recall    | 0.97 | 0.98| 0.95 | 0.99| ... | 0.98 |
+| F1-Score  | 0.97 | 0.97| 0.95 | 0.99| ... | 0.98 |
+| Support   | 200  | 200 | 200  | 200 | ... | —    |
 
-| Metric               | Value   |
-|----------------------|---------|
+</td>
+
+<td style="padding-left: 40px;">
+
+📊 **Summary Metrics:**
+
+| Metric               | Value     |
+|----------------------|-----------|
 | 🎯 Accuracy           | **98.25%** |
 | 📊 Macro Precision    | **0.981**  |
 | 📈 Macro Recall       | **0.982**  |
 | 📉 Macro F1-Score     | **0.980**  |
+
+</td>
+</tr>
+</table>
+
+</div>
+
 
 🧠 The CNN achieved high accuracy across all gesture classes, with strong confidence and minimal misclassification.
 
@@ -118,33 +137,59 @@ Classify grayscale hand gesture images into one of 10 categories using a custom 
 <table>
   <tr>
     <td>
+      <strong>📊 Number of Samples per Class</strong><br>
+      <img src="Images/number_of_sample_per_class.png" width="400">
+    </td>
+    <td>
       <strong>📊 Confusion Matrix</strong><br>
       <img src="Images/confusion_matrix.png" width="400">
     </td>
+  </tr>
+  <tr>
     <td>
-      <strong>📈 Accuracy & Loss Curve</strong><br>
-      <img src="Images/loss_accuracy_curve.png" width="400">
+      <strong>📈 Accuracy Curve</strong><br>
+      <img src="Images/accuracy_curve.png" width="400">
+    </td>
+    <td>
+      <strong>📉 Loss Curve</strong><br>
+      <img src="Images/loss_curve.png" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>🎯 Per-Class Accuracy</strong><br>
+      <img src="Images/per_class_accuracy.png" width="400">
+    </td>
+    <td>
+      <strong>📋 Precision / Recall / F1-Score per Class</strong><br>
+      <img src="Images/per_class_precision_recall_f1.png" width="400">
     </td>
   </tr>
   <tr>
     <td>
       <strong>🌐 UMAP Feature Embedding</strong><br>
-      <img src="Images/umap_projection.png" width="400">
+      <img src="Images/Umap.png" width="400">
     </td>
     <td>
-      <strong>🎯 Per-Class Accuracy</strong><br>
-      <img src="Images/per_class_accuracy.png" width="400">
+      <strong>🔥 Activation Heatmap (Feature Map)</strong><br>
+      <img src="Images/hitmap.png" width="400">
     </td>
   </tr>
   <tr>
-    <td colspan="2">
-      <strong>🖼️ Random Predictions with Confidence</strong><br>
-      <img src="Images/prediction_with_confidence.png" width="600">
+    <td>
+      <strong>🔍 Prediction Example 1</strong><br>
+      <img src="Images/prediction_1.png" width="400">
+    </td>
+    <td>
+      <strong>🔍 Prediction Example 2</strong><br>
+      <img src="Images/prediction_2.png" width="400">
     </td>
   </tr>
+
 </table>
 
 </div>
+
 
 ---
 
